@@ -1,0 +1,9 @@
+{
+  "dataStudio": {
+    "name": "Customer Reviews Carousel",
+    "logoUrl": "https://example.com/logo.png",
+    "company": "Your Company",
+    "tutorialUrl": "https://example.com/tutorial",
+    "description": "A custom visualization to display customer reviews in a carousel."
+  }
+}
