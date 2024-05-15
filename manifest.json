@@ -1,9 +1,7 @@
 visualization: customer_reviews_visualisation {
   label: "Customer reviews visualisation"
   description: "A custom visualization to display customer reviews."
-  url: "/path/to/my_custom_visualization.js"
-  css_url: "/path/to/my_custom_visualization.css"
-  icon_url: "/path/to/my_custom_visualization_icon.png"
+  url: "https://github.com/em-sm24/customer-reviews-visualisation/blob/main/main.js"
   options: {
     my_option: {
       type: string,
