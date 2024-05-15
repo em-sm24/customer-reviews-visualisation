@@ -4,7 +4,7 @@ visualization: customer_reviews_visualisation {
   url: "https://raw.githubusercontent.com/em-sm24/customer-reviews-visualisation/main/main.js"
   options: {
     my_option: {
-      type: string,
+      type: string
       default: "value"
     }
   }
