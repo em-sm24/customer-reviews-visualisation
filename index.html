@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Customer Reviews Carousel</title>
   <style>
-    /* Your CSS styling here */
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .review-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 80%;
+      max-width: 400px;
+      text-align: left;
+      margin: 16px 0;
+    }
+    .review-card h3 {
+      margin: 0 0 8px;
+    }
+    .review-card p {
+      margin: 4px 0;
+    }
+    .navigation-buttons {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 400px;
+    }
+    .navigation-buttons button {
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
   </style>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="main.js"></script>
 </head>
 <body>
   <div id="container">
@@ -18,6 +54,6 @@
       <button id="next-button">Next</button>
     </div>
   </div>
-  <script src="main.js"></script>
 </body>
 </html>
+
